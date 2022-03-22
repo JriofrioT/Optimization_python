@@ -16,9 +16,8 @@ x = np.arange(xstart,xstop,delta)
 aux_1 = x*x
 y = 2*aux_1 + 20*x - 22
 #----------plot---------------------
+plt.subplot(2,1,1)
 plt.plot(x,y)
-plt.grid()
-plt.show()
 
 i=0
 
@@ -41,8 +40,10 @@ x_1=np.linspace(xmin,xmax,N+1)
 y_1=func(x_1)
 #-----------Plot------------------------
 
+plt.subplot(2,1,2)
 plt.plot(x_1,y_1)
 plt.xlim([xmin,xmax])
+
 plt.grid()
 plt.show()
 
