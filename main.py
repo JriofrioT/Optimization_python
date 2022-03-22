@@ -17,7 +17,9 @@ aux_1 = x*x
 y = 2*aux_1 + 20*x - 22
 #----------plot---------------------
 plt.subplot(2,1,1)
-plt.plot(x,y)
+plt.plot(x,y, "r-")
+plt.grid()
+plt.show()
 
 i=0
 
