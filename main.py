@@ -16,7 +16,9 @@ x = np.arange(xstart,xstop,delta)
 aux_1 = x*x
 y = 2*aux_1 + 20*x - 22
 #----------plot---------------------
-
+plt.plot(x,y)
+plt.grid()
+plt.show()
 
 i=0
 
